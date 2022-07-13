@@ -1,18 +1,122 @@
 <!DOCTYPE HTML>
-<html>
 <style>
 body { 
 background-color: #36393e;
 }
-</style>
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=0.8" />
-<link rel="stylesheet" href="<!DOCTYPE HTML>
-<html>
-<style>
-body { 
-background-color: #36393e;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+}
+h1{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
+h2{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
+h3{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
+p{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
+.menudiv {
+	font-family: 'Ubuntu', sans-serif;
+	left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+	z-index: 2;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonjob {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonrepo {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttoncontact {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+  
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 </style>
 <head>
@@ -26,18 +130,17 @@ background-color: #36393e;
 
 <body>
 <h1>Art Elokuva OY</h1>
-  <div>
+  <br>
 <h2 style="text-align: center">Tervetuloa Art Elokuva OY:n nettisivuille!</h2>
-    <div>
+		<br>
       <h3 style="text-align: center">Tietoja</h3>
       <div>
         <p style="text-align: center">Art Elokuva OY tekee videoita ja joitakin pelejä, voit käydä katsomassa ne tältä nettisivulta.</p>
  
 
 <div class="menudiv">
-  <div>
 <button onclick="location.href='https://www.youtube.com/channel/UC_4SOL8f-NygQWdw6-_DclQ/videos'" class="button" style="vertical-align:middle;background-color: #5145f7;"><span>Videot</span></button>
-    <div>
+    <br>
 <button onclick="location.href='https://www.patreon.com/artelokuvaoy'" class="button" style="vertical-align:middle;background-color: #5145f7;"><span>Anna rahaa</span></button>
 </div>
 
