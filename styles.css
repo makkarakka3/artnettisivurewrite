@@ -1,3 +1,6 @@
+body { 
+background-color: #36393e;
+}
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 * {
   box-sizing: border-box;
@@ -13,6 +16,11 @@ h2{
 	text-align: center;
 } 
 h3{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
+p{
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
