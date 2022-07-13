@@ -7,7 +7,16 @@ h1{
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 } 
-
+h2{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
+h3{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+} 
 .menudiv {
 	font-family: 'Ubuntu', sans-serif;
 	left: 0;
