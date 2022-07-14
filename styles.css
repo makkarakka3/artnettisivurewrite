@@ -8,10 +8,6 @@ body {
     font: 14px/1.5 Arial, Helvetica, sans-serif;
 } 
 
-html { 
-    background-color: #eaf0f2;
-} 
-
 footer { 
     position: fixed; 
     bottom: 0;
