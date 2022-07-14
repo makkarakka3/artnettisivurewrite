@@ -2,9 +2,6 @@
 body { 
 background-color: #36393e;
 }
-* {
-  box-sizing: border-box;
-}
 h1{
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
