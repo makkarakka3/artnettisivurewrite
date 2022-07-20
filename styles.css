@@ -30,15 +30,9 @@ p{
 	text-align: center;
 } 
 .menudiv {
-	font-family: 'Ubuntu', sans-serif;
-	left: 0;
-    line-height: 200px;
-    margin-top: -20px;
+    font-family: 'Ubuntu', sans-serif;
     position: absolute;
     text-align: center;
-    top: 50%;
-    width: 100%;
-	z-index: 2;
 }
 .button {
   display: inline-block;
