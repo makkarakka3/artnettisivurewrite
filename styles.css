@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 
 body { 
-background-color: #36393e;
+background-color: #1a1a1a;
 }
 h1{
 	color: white;
@@ -34,15 +37,16 @@ p{
     width: 100%;
 	z-index: 2;
 }
- .menudiv button {
+ .button {
   display: inline-block;
   border-radius: 4px;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
+  background-color: #3b58fd;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 300px;
+  width: 230px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -88,4 +92,30 @@ p{
   background-color: #fc4141;
   color: #FFFFFF;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.videot {
+  margin-top: 750px;
+}
+
+.videot button{
+  margin-top: 520px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.annarahaa {
+  margin-top: px;
+}
+
+.annarahaa button{
+  margin-top: 520px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
