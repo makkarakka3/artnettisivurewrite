@@ -3,12 +3,44 @@
 </style>
 <html>
 <head>
+<script src="index.js"> </script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=0.8" />
 <link rel="stylesheet" href="styles.css">
 <title>Art Elokuva OY</title>
 </head>
 <header>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#!">Logo</a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">Koti</a>
+          </li>
+          <li>
+            <a href="#!">Tietoja</a>
+          </li>
+          <li>
+            <a href="#!">Services</a>
+            <ul class="navbar-dropdown">
+              <li>
+                <a href="#!">Sass</a>
+              </li>
+              <li>
+                <a href="#!">Less</a>
+              </li>
+              <li>
+                <a href="#!">Stylus</a>
+              </li>
+            </ul>
+        </ul>
+      </nav>
+    </div>
+  </section>
 </header>
 
 <body>
@@ -18,6 +50,7 @@
 <h2 style="text-align: center">Tervetuloa Art Elokuva OY:n nettisivuille!</h2>
       <h3 style="text-align: center">Tietoja</h3>
       <div>
+
         <p style="text-align: center">Art Elokuva OY tekee videoita ja joitakin pelejä, voit käydä katsomassa ne tältä nettisivulta.</p>
         <button onclick="location.href='#videot'" class="button" style="vertical-align:middle;background-color: #5145f7;"><span>Videot</span></button>
         <button onclick="location.href='https://www.patreon.com/artelokuvaoy'" class="button" style="vertical-align:middle;background-color: #5145f7;"><span>Anna rahaa</span></button>
@@ -26,21 +59,7 @@
       </div>
     </div>
 
-    <!--Videot kohta-->
-
-      <div id="videot" class="videot">
-      <h2>Videot</h2>
-      <p>Voit katsoa kaikki laadukkaat videomme täältä.</p>
-      <button onclick="location.href='https://www.youtube.com/channel/UC_4SOL8f-NygQWdw6-_DclQ/videos'" class="button" style="vertical-align:middle;background-color: #5145f7;"><span>Videot</span></button>
-     </div>
-
-     <!--Anna rahaa kohta-->
-
-     <div id="annarahaa" class="annarahaa">
-      <h2>Anna rahaa</h2>
-
-     </div>
-
+    
 
 
 </body>
