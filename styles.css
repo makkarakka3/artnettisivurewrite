@@ -94,16 +94,3 @@ p{
   color: #FFFFFF;
   font-family: 'Ubuntu', sans-serif;
 }
-
-
-		li.timeline:before { content: '\e805'; }
-		li.events:before { content: '\e802'; }
-		li.calendar:before { content: '\e800'; }
-		li.settings:before { content: '\e803'; }
-		li.logout:before { content: '\e804'; }
-	}
-}
-
-body.menu-active nav#slide-menu { left: 0px; }
-body.menu-active nav#slide-menu ul { left: 0px; opacity: 1; }
-
