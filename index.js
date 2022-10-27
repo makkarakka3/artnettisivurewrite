@@ -1,7 +1,7 @@
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
 var element = document.getElementById("homecenter");
-  element.classList.toggle("mystyle");
+  element.classList.toggle("mobile-menu");
 }
 }
 
