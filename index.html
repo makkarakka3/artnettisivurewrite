@@ -9,16 +9,48 @@
 <title>Art Elokuva OY</title>
 </head>
 <header>
-  
+  <div id="brand"> <img src="https://cdn.discordapp.com/attachments/669919129893077032/739885499849637958/butiful_logo.png" alt="lohi" width="40" height="40"><a href="/">Art Elokuva OY</a></div>
+      
+  <nav>
+    <ul>
+      <li><a href="index.html">Koti</a></li>
+      <li><a href="https://youtube.com/channel/UC_4SOL8f-NygQWdw6-_DclQ">Videot</a></li>
+      <li><a href="pelit.html">Pelit</a></li>
+      <li><a href="https://patreon.com/artelokuvaoy">Patreon</a></li>
+      <li><a href="thx.html">Tiimi</a></li>
+      <li><a href="tyopaikat.html">Työpaikat</a></li>
+    </ul>
+  </nav>
+  <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <ul class="mobile-menu">
+
+      <li><a href="index.html">Koti</a></li>
+      <li><a href="https://youtube.com/channel/UC_4SOL8f-NygQWdw6-_DclQ">Videot</a></li>
+      <li><a href="pelit.html">Pelit</a></li>
+      <li><a href="https://patreon.com/artelokuvaoy">Patreon</a></li>
+      <li><a href="thx.html">Tiimi</a></li>
+      <li><a href="tyopaikat.html">Työpaikat</a></li>
+
+
+    </ul>
+  </div>
+
  </header>
 
 <body>
-	<div class="menu-trigger"></div>
+  
   <br>
-  <div class="homecenter">
+  <div class="homecenter" id="homecenter">
     <h1>Art Elokuva OY</h1>
+    <br>
+    <br>
 <h2 style="text-align: center">Tervetuloa Art Elokuva OY:n nettisivuille!</h2>
+<br>
       <h3 style="text-align: center">Tietoja</h3>
+      <br>
       <div>
 
         <p style="text-align: center">Art Elokuva OY tekee videoita ja joitakin pelejä, voit käydä katsomassa ne tältä nettisivulta.</p>
@@ -28,6 +60,13 @@
         
       </div>
     </div>
+
+    <script>
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
+
+    </script>
 
     
 </body>

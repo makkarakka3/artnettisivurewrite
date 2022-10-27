@@ -1,31 +1,28 @@
-(function($) { 
-    $(function() { 
-  
-      //  open and close nav 
-      $('#navbar-toggle').click(function() {
-        $('nav ul').slideToggle();
-      });
-  
-  
-      // Hamburger toggle
-      $('#navbar-toggle').on('click', function() {
-        this.classList.toggle('active');
-      });
-  
-  
-      // If a link has a dropdown, add sub menu toggle.
-      $('nav ul li a:not(:only-child)').click(function(e) {
-        $(this).siblings('.navbar-dropdown').slideToggle("slow");
-  
-        // Close dropdown when select another dropdown
-        $('.navbar-dropdown').not($(this).siblings()).hide("slow");
-        e.stopPropagation();
-      });
-  
-  
-      // Click outside the dropdown will remove the dropdown class
-      $('html').click(function() {
-        $('.navbar-dropdown').hide();
-      });
-    }); 
-  })(jQuery); 
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
+
+  function toggleCloudAlert() {
+      if (confirm("Tämä uudelleenohjaa sinut cloud.artelokuvaoy.com:iin!\nJos et ole töissä Art Elokuva OY:llä sinulla ei ole käyttäjää tälle sivulle.\nJos olet töissä Art Elokuva OY:llä ja halua käyttäjän, ota yhteys tatuun.\nHaluatko jatkaa?")) {
+          location.replace("https://cloud.artelokuvaoy.com")
+  } else {
+      void(0)
+  }
+}
+
+function toggleWarningBox() {
+  var cont = document.getElementById('warningBox');
+  if (cont.style.display == 'block') {
+      cont.style.display = 'none';
+  }
+  else {
+      cont.style.display = 'block';
+  }
+}
+function toggleCancel() {
+  var cont = document.getElementById('warningBox');
+  if (cont.style.display == 'block') {
+      cont.style.display = 'none';
+
+}
+}
