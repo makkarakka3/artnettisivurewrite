@@ -274,6 +274,8 @@ footer p {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 1920px) {
 .miksi {
   margin-top: 450px;
+}
 }
